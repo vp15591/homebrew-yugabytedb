@@ -22,14 +22,24 @@ $ brew install <formula>
 
 For example:
 
- * Install the latest available production release of YugabyteDB. This will currently install YUgabyte 2.0.5.2:
+ * Install the latest available production release of YugabyteDB. This will currently install YUgabyte 2.0.11.0:
  ```
  $ brew install yugabytedb
  ```
 
- * Install Yugabyte CLI tools :
+ * Install YugabyteDB version 2.0.10.0 . This will install Yugabyte 2.0.10.0:
+ ```
+ $ brew install yugabytedb@2.0.10.0
+ ```
+
+ * Install the latest avalable Yugabyte CLI tools :
  ```
  $ brew install yugabytedb-client
+ ```
+
+ * Install Yugabyte CLI tools version 2.0.10.0 :
+ ```
+ $ brew install yugabytedb-client@2.0.10.0
  ```
 
 ## Default Paths for the Yugabyte Formula
