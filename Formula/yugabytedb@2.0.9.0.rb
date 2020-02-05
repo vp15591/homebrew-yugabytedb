@@ -1,9 +1,10 @@
-class Yugabytedb < Formula
+class YugabytedbAT2090 < Formula
   desc "High-performance distributed SQL database Yugabyte DB"
   homepage "https://yugabyte.com"
-  url "https://downloads.yugabyte.com/yugabyte-2.0.11.0-darwin.tar.gz"
-  sha256 "39acba6800f9d4c665ed44323502cbb650d25430716cd0ecef7135b482d2ce7d"
+  url "https://downloads.yugabyte.com/yugabyte-2.0.9.0-darwin.tar.gz"
+  sha256 "7d5da3fec65309bb4f2369a9c393994b718fed664aeb2d911acd7a83ba218dea"
 
+  conflicts_with "yugabytedb", :because => "yugabyte also ships latest similar binarys"
   depends_on :java => "1.8"
   depends_on "python"
 
